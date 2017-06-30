@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/id_pos_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POS签到"/>
+            <Button
+                android:id="@+id/id_pos_benefits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="会员优惠信息"/>
+            <Button
+                android:id="@+id/id_pos_tranMoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="会员交易金额计算"/>
+            <Button
+                android:id="@+id/id_pos_transUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="交易流水上送"/>
+
+            <Button
+                android:id="@+id/id_pos_qbPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="钱包支付"/>
+
+            <Button
+                android:id="@+id/id_pos_qbQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="钱包订单查询"/>
+
+            <Button
+                android:id="@+id/id_pos_getPrinter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="获取打印信息"/>
+            <Button
+                android:id="@+id/id_pos_transCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="退款"/>
+
+            <Button
+                android:id="@+id/id_pos_smPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="扫码支付"/>
+
+            <Button
+                android:id="@+id/id_pos_smQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="扫码订单查询"/>
+
+            <Button
+                android:id="@+id/id_pos_smLastQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="扫码末笔订单查询"/>
+
+            <Button
+                android:id="@+id/id_pos_smRefund"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="扫码退款"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
