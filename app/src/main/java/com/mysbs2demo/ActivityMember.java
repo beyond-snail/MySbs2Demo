@@ -39,7 +39,7 @@ public class ActivityMember extends BaseActivity {
 
 
 
-                int sid = 1;
+                int sid = (int) SPUtils.get(mContext, "sid", 0);
                 String mobile = etPhone.getText().toString().trim();
                 int tradeMoney = 1;
                 String operator_num = (String) SPUtils.get(mContext, "operator_num", "");
